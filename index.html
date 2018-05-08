@@ -4,24 +4,40 @@
 	<meta charset="UTF-8">
 	<title>Home Page</title>
 	<link rel="stylesheet" href="css/home.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/jquery.min js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- <link rel="stylesheet" type="text/css" href="fonts/Raleway-Regular.ttf"> -->
 </head>
 <body>
-	<div id="navbar">
-		
+	<nav class="navbar navbar-expand-sm navbar-dark justify-content-center fixed-top" id="navbar">
+		<a href="index.html" class="navbar-brand">
+			<img src="img/logo.png" alt="SMLF Logo" width="340px">
+		</a>
+		<ul class="navbar-nav">
+			<li class="nav-item"><a href="#" class="active nav-link">HOME</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">OUR PRACTICES</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">OUR CLIENTS</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">SERVICES</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">LAWYERS</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
+		</ul>
+	</nav>
+
+	<div class="row" id="opening">
+		<div class="col"></div>
+		<div class="col-8">
+			<img src="img/center.png" alt="Solis Medina Limpingco & Fajardo Lawyers" class="img-fluid">	
+		</div>
+		<div class="col"></div>
 	</div>
 
-	<div id="opening" class="container">
-		<div class="row">
-			<!-- <div class="col-lg-3 col-md-3 col-sm-3"> -->
-				
-			<!-- </div> -->
-			<!-- <div class="col-lg-6 col-md-6 col-sm-6 text-center"> -->
-				<img src="img/center.png" alt="Solis Medina Limpingco & Fajardo Lawyers" id="center">	
-			<!-- </div> -->
-			<!-- <div class="col-lg-3 col-md-3 col-sm-3"> -->
-				
-			<!-- </div> -->
+	<div class="row" id="about-us">
+		<div class="col"></div>
+		<div class="col-9">
+			<img src="img/about-us.jpg" alt="About Us" class="img-fluid">	
 		</div>
+		<div class="col"></div>
 	</div>
 </body>
 </html>
