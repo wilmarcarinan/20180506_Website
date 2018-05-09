@@ -5,7 +5,7 @@
 } 
 
 body {
-	background: url('../img/bg.jpg'); 
+	background: url('../img/home bg.jpg'); 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -26,10 +26,13 @@ body {
 
 }
 
-/*@font-face {
+/************************************
+    Font Family
+*************************************/
+@font-face {
 	font-family: 'Raleway';
 	src: url('fonts/Raleway-Regular.ttf');
-}*/
+}
 
 #navbar {
 	background-color: rgb(20,41,84);
@@ -55,4 +58,20 @@ body {
 #about-us {
 	background-color: #fff;
 	margin: 120px 0 0 0;
+}
+
+#practices {
+ 	margin-top: 40px
+ }
+
+#government, #labor {
+	margin-top: 100px;
+}
+
+#contact-us {
+	margin-top: 140px;
+}
+
+#clients {
+	margin-
 }
