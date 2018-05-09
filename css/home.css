@@ -4,15 +4,6 @@
 	border: 0; 
 } 
 
-/*body {
-	background: url('../img/home bg.jpg'); 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-    background-attachment: fixed;
-}*/
-
 @media (min-width: 576px) { 
 
 }
@@ -38,43 +29,19 @@
 	background-color: rgb(20,41,84);
 	height: 60px;
 	width: auto;
-	/*font-family: Raleway-Regular;*/
-	/*margin: 0 0 80px 0;*/
 }
 
 #opening {
-	/*height: 697px;*/
-	/*width: 1524px;*/
 	margin: 140px 0 0 0;
 }
-
-/*.center{
-	max-width: 100%;
-    max-height: 100%;
-    margin: 0 auto;
-    object-fit: contain;
-}*/
 
 #about-us {
 	background-color: #fff;
 	margin: 120px 0 0 0;
 }
 
-#clients {
-	background-color: #fff;
-}
-
 #bg-practices {	
  	background: url('../img/OP bg.jpg'); 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-    background-attachment: fixed;
-}
-
-#bg-clients {
-	background: url('../img/clients bg.jpg'); 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -92,8 +59,4 @@
 
 #contact-us {
 	margin-top: 140px;
-}
-
-#clients {
-	margin-
 }
