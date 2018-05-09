@@ -1,0 +1,62 @@
+* { 
+	padding: 0;
+	margin: 0; 
+	border: 0; 
+} 
+
+@media (min-width: 576px) { 
+
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
+
+}
+@media (min-width: 1200px) {
+
+}
+
+/************************************
+    Font Family
+*************************************/
+@font-face {
+	font-family: 'Raleway';
+	src: url('fonts/Raleway-Regular.ttf');
+}
+
+#navbar {
+	background-color: rgb(20,41,84);
+	height: 60px;
+	width: auto;
+}
+
+#opening {
+	margin: 140px 0 0 0;
+}
+
+#about-us {
+	background-color: #fff;
+	margin: 120px 0 0 0;
+}
+
+#bg-practices {	
+ 	background: url('../img/OP bg.jpg'); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+#practices {
+ 	margin-top: 40px;
+ }
+
+#government, #labor {
+	margin-top: 100px;
+}
+
+#contact-us {
+	margin-top: 140px;
+}
