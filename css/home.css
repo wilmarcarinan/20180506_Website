@@ -4,14 +4,14 @@
 	border: 0; 
 } 
 
-body {
+/*body {
 	background: url('../img/home bg.jpg'); 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
     background-attachment: fixed;
-}
+}*/
 
 @media (min-width: 576px) { 
 
@@ -60,8 +60,30 @@ body {
 	margin: 120px 0 0 0;
 }
 
+#clients {
+	background-color: #fff;
+}
+
+#bg-practices {	
+ 	background: url('../img/OP bg.jpg'); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+#bg-clients {
+	background: url('../img/clients bg.jpg'); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
 #practices {
- 	margin-top: 40px
+ 	margin-top: 40px;
  }
 
 #government, #labor {

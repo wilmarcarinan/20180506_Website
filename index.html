@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Home Page</title>
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/home.css">
-	<script src="js/jquery.min js"></script>
-	<script src="js/bootstrap.min.js"></script>
+      
+	<!-- <script src="js/jquery.min js"></script> -->
+	<!-- <script src="js/bootstrap.min.js"></script> -->
 	<!-- <link rel="stylesheet" type="text/css" href="fonts/Raleway-Regular.ttf"> -->
 </head>
 <body>
+	<!-- @component: backstretch element -->
+  	<div data-toggle="backstretch"
+    	data-opacity="9"  
+    	data-backstretch-imgs="img/a.jpg,img/b.jpg,img/c.jpg"></div>
+
 	<nav class="navbar navbar-expand-sm navbar-dark justify-content-center fixed-top" id="navbar">
 		<a href="index.html" class="navbar-brand">
 			<img src="img/logo.png" alt="SMLF Logo" width="340px">
@@ -40,5 +48,22 @@
 		</div>
 		<div class="col"></div>
 	</div>
+
+	<!-- JavaScript
+    ================================================== -->
+    <!-- jQuery (version: 2.1.4) via googleapis or path to local copy ie. plugins/jquery/jquery.min.js -->
+    <script src="js/jquery.min.js"></script>
+    
+    <!-- Tether plugin, needed for tooltip plugin -->
+    <script src="js/tether.min.js"></script>
+    
+    <!-- Bootstrap (version: v4.1.1) JS via MaxCDN or path to local copy ie. plugins/bootstrap/dist/js/bootstrap.min.js-->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- Backstretch plugin: http://srobbin.com/jquery-plugins/backstretch/ -->
+    <script src="js/jquery.backstretch.min.js"></script>
+    
+    <!-- Our custom JS -->
+    <script src="js/default.js"></script>
 </body>
 </html>
