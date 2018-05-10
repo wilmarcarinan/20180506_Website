@@ -20,10 +20,10 @@
 /************************************
     Font Family
 *************************************/
-/*@font-face {
+@font-face {
 	font-family: 'Raleway';
-	src: url('fonts/Raleway-Regular.ttf');
-}*/
+	src: url('../fonts/Raleway-Regular.ttf') format('truetype');
+}
 
 #navbar {
 	background-color: rgb(20,41,84);
