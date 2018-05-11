@@ -69,3 +69,24 @@
 #contact-us {
 	margin-top: 140px;
 }
+
+#litigation {
+	background-image: url('../img/white up.png');
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat: no-repeat;
+	height: 825px;
+	/*width: 1580px;*/
+	padding: 170px 0 0 0;
+}
+
+#litigation-box {
+	margin-top: -60px;
+}
+
+.practices-text {
+	color: #002e5d;
+	letter-spacing: 1px;
+}
