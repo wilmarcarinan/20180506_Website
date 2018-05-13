@@ -4,6 +4,10 @@
 	border: 0; 
 } 
 
+body { 
+   overflow-x: hidden;
+}
+
 @media (min-width: 576px) { 
 
 }
@@ -23,6 +27,11 @@
 @font-face {
 	font-family: 'Raleway';
 	src: url('../fonts/Raleway-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Roboto Condensed Light';
+	src: url('../fonts/RobotoCondensed-Light.ttf') format('truetype');
 }
 
 #navbar {
@@ -62,7 +71,7 @@
  	margin-top: 40px;
  }
 
-#government, #labor {
+#government, #government-test, #labor {
 	margin-top: 100px;
 }
 
@@ -80,13 +89,111 @@
 	height: 825px;
 	/*width: 1580px;*/
 	padding: 170px 0 0 0;
+	/*opacity: 0.7;
+    filter: alpha(opacity=70);*/ /* For IE8 and earlier */
 }
 
 #litigation-box {
 	margin-top: -60px;
 }
 
-.practices-text {
+#practices-text {
+	font-family: 'Roboto Condensed Light', sans-serif;
+	font-size: 27px;
 	color: #002e5d;
-	letter-spacing: 1px;
+	text-align: center;
+	margin: -290px 0 0 10px;
+}
+
+#corporate {
+	background-image: url('../img/white down.png');
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat: no-repeat;
+	height: 825px;
+	padding: 360px 0 0 0;
+}
+
+#corporate-box {
+	margin-top: -82px;
+}
+
+#corporate-text {
+	font-family: 'Roboto Condensed Light', sans-serif;
+	font-size: 27px;
+	color: #002e5d;
+	text-align: center;
+	margin: -310px 0 0 10px;
+}
+
+#government {
+	background-image: url('../img/white up.png');
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat: no-repeat;
+	height: 825px;
+	padding: 85px 0 0 0;
+}
+
+#government-box {
+	margin-top: -143px;
+}
+
+#government-text {
+	font-family: 'Roboto Condensed Light', sans-serif;
+	font-size: 27px;
+	color: #002e5d;
+	text-align: center;
+	margin: -350px 0 0 0;
+}
+
+#infrastructure {
+	background-image: url('../img/white down.png');
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat: no-repeat;
+	height: 825px;
+	padding: 348px 0 0 0;
+}
+
+#infrastructure-box {
+	/*margin-top: -113px;*/
+	margin-top: -137px;
+}
+
+#infrastructure-text {
+	font-family: 'Roboto Condensed Light', sans-serif;
+	font-size: 27px;
+	color: #002e5d;
+	text-align: center;
+	margin: -300px 0 0 10px;
+}
+
+#labor {
+	background-image: url('../img/white up.png');
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat: no-repeat;
+	height: 825px;
+	padding: 135px 0 0 0;
+}
+
+#labor-box {
+	margin-top: -165px;
+}
+
+#labor-text {
+	font-family: 'Roboto Condensed Light', sans-serif;
+	font-size: 27px;
+	color: #002e5d;
+	text-align: center;
+	margin: -245px 0 0 10px;
 }
