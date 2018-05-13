@@ -71,7 +71,7 @@ body {
  	margin-top: 40px;
  }
 
-#government, #government-test, #labor-test, #labor {
+#government, #labor {
 	margin-top: 100px;
 }
 
@@ -196,4 +196,53 @@ body {
 	color: #002e5d;
 	text-align: center;
 	margin: -245px 0 0 10px;
+}
+
+#bg-profile {	
+ 	/*background: url('../img/profile bg.jpg'); */
+	/*-webkit-background-size: cover;*/
+	/*-moz-background-size: cover;*/
+	/*-o-background-size: cover;*/
+	/*background-size: cover;*/
+    /*background-attachment: fixed;*/
+}
+
+#profile {
+	margin-top: 100px;
+}
+
+#firm-profile {
+	/*border: 2px solid black;*/
+ 	/*background: url('../img/firm profile box.png'); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 825px;
+	width: 500px;*/
+}
+
+.profile-imgs {
+	position: absolute;
+	/*top: 25px;*/
+	/*left: 25px;*/
+}
+
+#firm-profile-box {
+	z-index: -1;
+}
+
+#firm-profile-img {
+	z-index: 3;
+	height: 94px;
+	width: 220px;
+	margin: 50px 0 0 350px;
+}
+
+#firm-profile-text {
+	font-family: 'Roboto Condensed Light', sans-serif;
+	font-size: 19px;
+	color: #002e5d;
+	text-align: center;
+	margin-top: 135px;
 }
