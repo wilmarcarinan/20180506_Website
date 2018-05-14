@@ -211,38 +211,206 @@ body {
 	margin-top: 100px;
 }
 
-#firm-profile {
-	/*border: 2px solid black;*/
- 	/*background: url('../img/firm profile box.png'); 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	height: 825px;
-	width: 500px;*/
-}
-
 .profile-imgs {
 	position: absolute;
 	/*top: 25px;*/
 	/*left: 25px;*/
 }
 
-#firm-profile-box {
+#firm-profile-box, #solis-box, #medina-box, 
+#limpingco-box, #fajardo-box, #malilong-box,
+#associates-box {
 	z-index: -1;
 }
 
 #firm-profile-img {
 	z-index: 3;
-	height: 94px;
-	width: 220px;
-	margin: 50px 0 0 350px;
+	height: 150px;
+	width: 348px;
+	margin: 39px 0 0 280px;
 }
 
 #firm-profile-text {
 	font-family: 'Roboto Condensed Light', sans-serif;
-	font-size: 19px;
+	font-size: 21px;
 	color: #002e5d;
 	text-align: center;
-	margin-top: 135px;
+	line-height: 1.2;
+	margin: 175px 0 0 25px;
+}
+
+#solis {
+	margin-top: 100px;
+	border: 1px solid white; /*Needed for the text not to move*/
+	/*height: 620px;*/
+}
+
+#solis-img {
+	width: 700px;
+	height: 105px;
+	margin: 40px 0 0 390px;
+}
+
+#solis-text {
+	font-family: 'Roboto Condensed Light', sans-serif;
+	font-size: 23px;
+	color: #002e5d;
+	text-align: center;
+	line-height: 1.2;
+	margin: 140px 0 0 25px;
+}
+
+#medina {
+	margin-top: 90px;
+	border: 1px solid white; /*Needed for the text not to move*/
+}
+
+#medina-img {
+	width: 870px;
+	height: 90px;
+	margin: 40px 0 0 330px;
+}
+
+#medina-text {
+	font-family: 'Roboto Condensed Light', sans-serif;
+	font-size: 23px;
+	color: #002e5d;
+	text-align: center;
+	line-height: 1.2;
+	margin: 135px 0 0 25px;
+}
+
+#limpingco {
+	margin-top: 80px;
+	border: 1px solid white; /*Needed for the text not to move*/
+}
+
+#limpingco-img {
+	width: 654px;
+	height: 125px;
+	margin: 30px 0 0 450px;
+}
+
+#limpingco-text {
+	font-family: 'Roboto Condensed Light', sans-serif;
+	font-size: 23px;
+	color: #002e5d;
+	text-align: center;
+	line-height: 1.2;
+	margin: 135px 0 0 25px;
+}
+
+#fajardo {
+	margin-top: 79px;
+	border: 1px solid white; /*Needed for the text not to move*/
+}
+
+#fajardo-img {
+	width: 949px;
+	height: 105px;
+	margin: 30px 0 0 300px;
+}
+
+#fajardo-text {
+	font-family: 'Roboto Condensed Light', sans-serif;
+	font-size: 23px;
+	color: #002e5d;
+	text-align: center;
+	line-height: 1.2;
+	margin: 145px 0 0 25px;
+}
+
+#malilong {
+	margin-top: 80px;
+	border: 1px solid white; /*Needed for the text not to move*/
+}
+
+#malilong-img {
+	width: 735px;
+	height: 97px;
+	margin: 40px 0 0 400px;	
+}
+
+#malilong-text {
+	font-family: 'Roboto Condensed Light', sans-serif;
+	font-size: 23px;
+	color: #002e5d;
+	text-align: center;
+	line-height: 1.2;
+	margin: 130px 0 0 25px;
+}
+
+#associates {
+	margin-top: 180px;
+	border: 1px solid white; /*Needed for the text not to move*/
+}
+
+#associates-img {
+	width: 587px;
+	height: 471px;
+	margin: 40px 0 0 10px;
+}
+
+#gaanan-1 {
+	font-family: 'Roboto Condensed Light', sans-serif;
+	font-size: 24px;
+	color: #002e5d;
+	text-align: right;
+	margin: 85px 32px 0 0;
+}
+
+#gaanan-2 {
+	font-family: 'Roboto Condensed Light', sans-serif;
+	font-size: 24px;
+	color: #002e5d;
+	text-align: left;
+	margin: -45px 0 0 58px;
+}
+
+#carlos-1 {
+	font-family: 'Roboto Condensed Light', sans-serif;
+	font-size: 24px;
+	color: #002e5d;
+	text-align: right;
+	margin: 46px 76px 0 0;
+}
+
+#carlos-2 {
+	font-family: 'Roboto Condensed Light', sans-serif;
+	font-size: 24px;
+	color: #002e5d;
+	text-align: left;
+	margin: -7px 0 0 58px;
+}
+
+#urbina-1 {
+	font-family: 'Roboto Condensed Light', sans-serif;
+	font-size: 24px;
+	color: #002e5d;
+	text-align: right;
+	margin: 31px 31px 0 0;
+}
+
+#urbina-2 {
+	font-family: 'Roboto Condensed Light', sans-serif;
+	font-size: 24px;
+	color: #002e5d;
+	text-align: left;
+	margin: -7px 0 0 58px;
+}
+
+#villa-1 {
+	font-family: 'Roboto Condensed Light', sans-serif;
+	font-size: 24px;
+	color: #002e5d;
+	text-align: right;
+	margin: 45px 45px 0 0;
+}
+
+#villa-2 {
+	font-family: 'Roboto Condensed Light', sans-serif;
+	font-size: 24px;
+	color: #002e5d;
+	text-align: left;
+	margin: -7px 0 0 58px;
 }
