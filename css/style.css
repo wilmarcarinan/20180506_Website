@@ -8,19 +8,6 @@ body {
    overflow-x: hidden;
 }
 
-@media (min-width: 576px) { 
-
-}
-@media (min-width: 768px) {
-
-}
-@media (min-width: 992px) {
-
-}
-@media (min-width: 1200px) {
-
-}
-
 /************************************
     Font Family
 *************************************/
@@ -258,210 +245,234 @@ body {
     /*background-attachment: fixed;*/
 }
 
-#profile {
-	margin-top: 100px;
-}
-
-.profile-imgs {
-	position: absolute;
-	/*top: 25px;*/
-	/*left: 25px;*/
-}
-
-#firm-profile-box, #solis-box, #medina-box, 
+#solis-box, #medina-box, 
 #limpingco-box, #fajardo-box, #malilong-box,
 #associates-box {
+	position: absolute;
 	z-index: -1;
 }
 
+#profile {
+	position: relative;
+	transform: translate(0,21%);
+	margin-bottom: 24%;
+}
+
+#firm-profile-box {
+	position: absolute;
+}
+
 #firm-profile-img {
-	z-index: 3;
-	height: 150px;
-	width: 348px;
-	margin: 39px 0 0 280px;
+	position: absolute;
+	transform: translate(0,30%);
 }
 
 #firm-profile-text {
+	position: relative;
 	font-family: 'Roboto Condensed Light', sans-serif;
-	font-size: 21px;
+	/*font-size: 21px;*/
+	font-size: 1.3vw;
 	color: #002e5d;
 	text-align: center;
 	line-height: 1.2;
-	margin: 175px 0 0 25px;
+	transform: translate(1%,40%);
 }
 
 #solis {
-	margin-top: 100px;
-	border: 1px solid white; /*Needed for the text not to move*/
-	/*height: 620px;*/
+	position: relative;
+	height: 39.9vw;
 }
 
 #solis-img {
-	width: 700px;
-	height: 105px;
-	margin: 40px 0 0 390px;
+	position: absolute;
+	transform: translate(0, 40%);
 }
 
 #solis-text {
+	position: absolute;
 	font-family: 'Roboto Condensed Light', sans-serif;
-	font-size: 23px;
+	/*font-size: 23px;*/
+	font-size: 1.5vw;
 	color: #002e5d;
 	text-align: center;
 	line-height: 1.2;
-	margin: 140px 0 0 25px;
+	transform: translate(4%, 35%);
 }
 
 #medina {
-	margin-top: 90px;
-	border: 1px solid white; /*Needed for the text not to move*/
+	position: relative;
+	height: 30.8vw;
 }
 
 #medina-img {
-	width: 870px;
+	position: absolute;
+	transform: translate(0, 45%);
+	/*width: 870px;
 	height: 90px;
-	margin: 40px 0 0 330px;
+	margin: 40px 0 0 330px;*/
 }
 
 #medina-text {
 	font-family: 'Roboto Condensed Light', sans-serif;
-	font-size: 23px;
+	/*font-size: 23px;*/
+	font-size: 1.5vw;
 	color: #002e5d;
 	text-align: center;
 	line-height: 1.2;
-	margin: 135px 0 0 25px;
+	transform: translate(0.7%,53%);
 }
 
 #limpingco {
-	margin-top: 80px;
-	border: 1px solid white; /*Needed for the text not to move*/
+	position: relative;
+	height: 26.4vw;
 }
 
 #limpingco-img {
-	width: 654px;
-	height: 125px;
-	margin: 30px 0 0 450px;
+	position: absolute;
+	transform: translate(0, 25%);
 }
 
 #limpingco-text {
 	font-family: 'Roboto Condensed Light', sans-serif;
-	font-size: 23px;
+	/*font-size: 23px;*/
+	font-size: 1.5vw;
 	color: #002e5d;
 	text-align: center;
 	line-height: 1.2;
-	margin: 135px 0 0 25px;
+	transform: translate(0.7%,70%);
 }
 
 #fajardo {
-	margin-top: 79px;
-	border: 1px solid white; /*Needed for the text not to move*/
+	position: relative;
+	height: 32.6vw;
+	/*border: 2px solid black;	*/
 }
 
 #fajardo-img {
-	width: 949px;
-	height: 105px;
-	margin: 30px 0 0 300px;
+	position: absolute;
+	transform: translate(0, 25%);
 }
 
 #fajardo-text {
 	font-family: 'Roboto Condensed Light', sans-serif;
-	font-size: 23px;
+	/*font-size: 23px;*/
+	font-size: 1.5vw;
 	color: #002e5d;
 	text-align: center;
 	line-height: 1.2;
-	margin: 145px 0 0 25px;
+	transform: translate(0.5%,57%);
 }
 
 #malilong {
-	margin-top: 80px;
-	border: 1px solid white; /*Needed for the text not to move*/
+	position: relative;
+	height: 26.4vw;
 }
 
 #malilong-img {
-	width: 735px;
-	height: 97px;
-	margin: 40px 0 0 400px;	
+	position: absolute;
+	transform: translate(0, 45%);
 }
 
 #malilong-text {
 	font-family: 'Roboto Condensed Light', sans-serif;
-	font-size: 23px;
+	/*font-size: 23px;*/
+	font-size: 1.5vw;
 	color: #002e5d;
 	text-align: center;
 	line-height: 1.2;
-	margin: 130px 0 0 25px;
+	transform: translate(0, 65%);
 }
 
 #associates {
-	margin-top: 180px;
-	border: 1px solid white; /*Needed for the text not to move*/
+	position: relative;
+	height: 35.6vw;
+	margin-top: 5%;
 }
 
 #associates-img {
-	width: 587px;
-	height: 471px;
-	margin: 40px 0 0 10px;
+	position: absolute;
+	width: 37%;
+	transform: translate(2%,9%);
 }
 
 #gaanan-1 {
+	position: absolute;
 	font-family: 'Roboto Condensed Light', sans-serif;
-	font-size: 24px;
+	/*font-size: 24px;*/
+	font-size: 1.5vw;
 	color: #002e5d;
 	text-align: right;
-	margin: 85px 32px 0 0;
+	transform: translate(30vw,5.4vw);
 }
 
 #gaanan-2 {
+	position: absolute;
 	font-family: 'Roboto Condensed Light', sans-serif;
-	font-size: 24px;
+	/*font-size: 24px;*/
+	font-size: 1.5vw;
 	color: #002e5d;
 	text-align: left;
-	margin: -45px 0 0 58px;
+	transform: translate(3.7vw,5vw);
 }
 
 #carlos-1 {
+	position: absolute;
 	font-family: 'Roboto Condensed Light', sans-serif;
-	font-size: 24px;
+	/*font-size: 24px;*/
+	font-size: 1.5vw;
 	color: #002e5d;
 	text-align: right;
-	margin: 46px 76px 0 0;
+	transform: translate(26vw,12.2vw);
 }
 
 #carlos-2 {
+	position: absolute;
 	font-family: 'Roboto Condensed Light', sans-serif;
-	font-size: 24px;
+	/*font-size: 24px;*/
+	font-size: 1.5vw;
 	color: #002e5d;
 	text-align: left;
-	margin: -7px 0 0 58px;
+	transform: translate(3.7vw,14vw);
 }
 
 #urbina-1 {
+	position: absolute;
 	font-family: 'Roboto Condensed Light', sans-serif;
-	font-size: 24px;
+	/*font-size: 24px;*/
+	font-size: 1.5vw;
 	color: #002e5d;
 	text-align: right;
-	margin: 31px 31px 0 0;
+	transform: translate(23vw,18.1vw);
 }
 
 #urbina-2 {
+	position: absolute;
 	font-family: 'Roboto Condensed Light', sans-serif;
-	font-size: 24px;
+	/*font-size: 24px;*/
+	font-size: 1.5vw;
 	color: #002e5d;
 	text-align: left;
-	margin: -7px 0 0 58px;
+	transform: translate(3.7vw, 20vw);
 }
 
 #villa-1 {
+	position: absolute;
 	font-family: 'Roboto Condensed Light', sans-serif;
-	font-size: 24px;
+	/*font-size: 24px;*/
+	font-size: 1.5vw;
 	color: #002e5d;
 	text-align: right;
-	margin: 45px 45px 0 0;
+	transform: translate(25vw, 25vw);
 }
 
 #villa-2 {
+	position: absolute;
 	font-family: 'Roboto Condensed Light', sans-serif;
-	font-size: 24px;
+	/*font-size: 24px;*/
+	font-size: 1.5vw;
 	color: #002e5d;
 	text-align: left;
-	margin: -7px 0 0 58px;
+	transform: translate(3.7vw, 27vw);
 }
+
+
