@@ -32,6 +32,10 @@ body {
 	color: #fff !important;
 }
 
+#logo-img {
+	width: 200px;
+}
+
 #opening {
 	margin: 140px 0 0 0;
 }
@@ -39,6 +43,67 @@ body {
 #about-us {
 	background-color: #fff;
 	margin: 120px 0 0 0;
+}
+
+#bg-clients {	
+ 	/*background: url('../img/our clients.jpg'); */
+	/*-webkit-background-size: cover;*/
+	/*-moz-background-size: cover;*/
+	/*-o-background-size: cover;*/
+	/*background-size: cover;*/
+    /*background-attachment: fixed;*/
+}
+
+#our-clients-div {
+	width: /*768px*/;
+	width: 51.6vw;
+	/*height: 650px;*/
+	height: 43.4vw;
+	background-color: white;
+	margin: 128px 0 4.0625vw 4.0625vw;
+	padding: 1vw 0 0 1.2vw;
+}
+
+#our-clients-yellow-border {
+	/*width: 738px;*/
+	width: 48vw;
+	/*height: 618px;*/
+	height: 40vw;
+	border: 4px solid rgb(234,184,87);
+	padding: 0.66vw 0 0 0.9vw;
+}
+
+#our-clients-blue-border {
+	/*width: 738px;*/
+	width: 48vw;
+	/*height: 618px;*/
+	height: 40vw;
+	border: 4px solid rgb(16,42,77);
+}
+
+#our-text-in-our-clients {
+	font-family: Raleway;
+	color: rgb(234,184,87);
+	font-size:6.2vw;
+	text-shadow: 2px 2px rgb(140,140,140);
+	text-align: center;
+	margin: -1.7vw 0 0 0;
+}
+
+#clients-text-in-our-clients {
+	font-family: Raleway;
+	color: rgb(16,42,77);
+	font-size: 9.5vw;
+	text-align: center;
+	margin: -7.4vw 0 -1.4vw -1.3vw;
+}
+
+.our-clients-content {
+	text-align: center;
+	color: rgb(16,42,77);
+	font-size: 1.8vw;
+	font-family: Roboto Condensed Light;
+	font-weight: bold;
 }
 
 #bg-practices {	
