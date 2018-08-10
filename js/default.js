@@ -52,5 +52,22 @@ $(document).ready(function() {
       }                 
     }
   });
+
+  $(window).on("backstretch.before", function (e, instance, index) {
+    
+    if (index == 0) {
+      $('#backstretch-div ol li:nth-child(1)').addClass("active");
+      $('#backstretch-div ol li:nth-child(2)').removeClass("active");
+      $('#backstretch-div ol li:nth-child(3)').removeClass("active");
+    } else if (index == 1) {
+      $('#backstretch-div ol li:nth-child(1)').removeClass("active");
+      $('#backstretch-div ol li:nth-child(2)').addClass("active");
+      $('#backstretch-div ol li:nth-child(3)').removeClass("active");
+    } else if (index == 2) {
+      $('#backstretch-div ol li:nth-child(1)').removeClass("active");
+      $('#backstretch-div ol li:nth-child(2)').removeClass("active");
+      $('#backstretch-div ol li:nth-child(3)').addClass("active");
+    }
+  });
   
 });
