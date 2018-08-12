@@ -373,3 +373,15 @@ body {
 }
 /* - - - - - - - - - - - - - - - - - - - */
 
+/* - - - - Contact Us Page - - - - - - - */
+#contact-img {
+
+}
+
+#contact-us {
+	background-color: rgb(20,41,84);
+  margin-top: 80px;
+  padding: 20px 10px 20px 0px;
+	/*height: 120px;*/
+}
+/* - - - - - - - - - - - - - - - - - - - */
