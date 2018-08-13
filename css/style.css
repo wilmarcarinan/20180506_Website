@@ -380,8 +380,37 @@ body {
 
 #contact-us {
 	background-color: rgb(20,41,84);
-  margin-top: 80px;
-  padding: 20px 10px 20px 0px;
-	/*height: 120px;*/
+	margin-top: 80px;
+	padding: 20px 0 20px 0px;
+}
+
+#contact-text {
+	font-family: Raleway;
+	font-size: 4vw;
+	color: white;
+}
+
+#us-text {
+	font-family: Raleway; 
+	font-size: 3vw;
+	color: rgb(231,173,61);
+}
+
+#contact-address {
+	font-family: Raleway;
+	margin-top: 7vw;
+}
+
+#contact-footer {
+	background-color: rgb(160,160,159);
+	height: 60px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    box-shadow: inset 0px 11px 8px -10px black;
+    font-family: Raleway;
+    padding-top: 1vw;
 }
 /* - - - - - - - - - - - - - - - - - - - */
